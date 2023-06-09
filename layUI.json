@@ -1,0 +1,620 @@
+[
+	{
+		"name": "home",
+		"title": "主页",
+		"icon": "layui-icon-home",
+		"spread": true,
+		"list": [
+			{
+				"name": "console",
+				"title": "控制台",
+				"jump": "home/console.html"
+			},
+			{
+				"name": "console",
+				"title": "主页一",
+				"jump": "home/homepage1.html"
+			},
+			{
+				"name": "console",
+				"title": "主页二",
+				"jump": "home/homepage2.html"
+			}
+		]
+	},
+	{
+		"name": "component",
+		"title": "组件",
+		"icon": "layui-icon-component",
+		"spread": true,
+		"list": [
+			{
+				"name": "grid",
+				"title": "栅格",
+				"spread": true,
+				"list": [
+					{
+						"name": "list",
+						"title": "等比例列表排列",
+						"jump": "component/grid/list.html"
+					},
+					{
+						"name": "mobile",
+						"title": "按移动端排列",
+						"jump": "component/grid/mobile.html"
+					},
+					{
+						"name": "mobile-pc",
+						"title": "移动桌面端组合",
+						"jump": "component/grid/mobile-pc.html"
+					},
+					{
+						"name": "all",
+						"title": "全端复杂组合",
+						"jump": "component/grid/all.html"
+					},
+					{
+						"name": "stack",
+						"title": "低于桌面堆叠排列",
+						"jump": "component/grid/stack.html"
+					},
+					{
+						"name": "speed-dial",
+						"title": "九宫格",
+						"jump": "component/grid/speed-dial.html"
+					}
+				]
+			},
+			{
+				"name": "button",
+				"title": "按钮",
+				"jump": "component/button/index.html"
+			},
+			{
+				"name": "form",
+				"title": "表单",
+				"spread": true,
+				"list": [
+					{
+						"name": "element",
+						"title": "表单元素",
+						"jump": "component/form/element.html"
+					},
+					{
+						"name": "group",
+						"title": "表单组合",
+						"jump": "component/form/group.html"
+					}
+				]
+			},
+			{
+				"name": "nav",
+				"title": "导航",
+				"jump": "component/nav/index.html"
+			},
+			{
+				"name": "tabs",
+				"title": "选项卡",
+				"jump": "component/tabs/index.html"
+			},
+			{
+				"name": "progress",
+				"title": "进度条",
+				"jump": "component/progress/index.html"
+			},
+			{
+				"name": "panel",
+				"title": "面板",
+				"jump": "component/panel/index.html"
+			},
+			{
+				"name": "badge",
+				"title": "徽章",
+				"jump": "component/badge/index.html"
+			},
+			{
+				"name": "timeline",
+				"title": "时间线",
+				"jump": "component/timeline/index.html"
+			},
+			{
+				"name": "anim",
+				"title": "动画",
+				"jump": "component/anim/index.html"
+			},
+			{
+				"name": "auxiliar",
+				"title": "辅助",
+				"jump": "component/auxiliar/index.html"
+			},
+			{
+				"name": "layer",
+				"title": "通用弹层",
+				"spread": true,
+				"list": [
+					{
+						"name": "list",
+						"title": "功能演示",
+						"jump": "component/layer/list.html"
+					},
+					{
+						"name": "special-demo",
+						"title": "特殊示例",
+						"jump": "component/layer/special-demo.html"
+					},
+					{
+						"name": "theme",
+						"title": "风格定制",
+						"jump": "component/layer/theme.html"
+					}
+				]
+			},
+			{
+				"name": "laydate",
+				"title": "日期时间",
+				"spread": true,
+				"list": [
+					{
+						"name": "demo1",
+						"title": "功能演示一",
+						"jump": "component/laydate/demo1.html"
+					},
+					{
+						"name": "demo2",
+						"title": "功能演示二",
+						"jump": "component/laydate/demo2.html"
+					},
+					{
+						"name": "theme",
+						"title": "设定主题",
+						"jump": "component/laydate/theme.html"
+					},
+					{
+						"name": "special-demo",
+						"title": "特殊示例",
+						"jump": "component/laydate/special-demo.html"
+					}
+				]
+			},
+			{
+				"name": "table-static",
+				"title": "静态表格",
+				"jump": "component/table/static.html"
+			},
+			{
+				"name": "table",
+				"title": "数据表格",
+				"spread": true,
+				"list": [
+					{
+						"name": "simple",
+						"jump": "component/table/simple.html",
+						"title": " 简单数据表格"
+					},
+					{
+						"name": "auto",
+						"jump": "component/table/auto.html",
+						"title": " 列宽自动分配"
+					},
+					{
+						"name": "data",
+						"jump": "component/table/data.html",
+						"title": " 赋值已知数据"
+					},
+					{
+						"name": "tostatic",
+						"jump": "component/table/tostatic.html",
+						"title": " 转化静态表格"
+					},
+					{
+						"name": "page",
+						"jump": "component/table/page.html",
+						"title": " 开启分页"
+					},
+					{
+						"name": "resetPage",
+						"jump": "component/table/resetPage.html",
+						"title": " 自定义分页"
+					},
+					{
+						"name": "toolbar",
+						"jump": "component/table/toolbar.html",
+						"title": " 开启头部工具栏"
+					},
+					{
+						"name": "totalRow",
+						"jump": "component/table/totalRow.html",
+						"title": " 开启合计行"
+					},
+					{
+						"name": "height",
+						"jump": "component/table/height.html",
+						"title": " 高度最大适应"
+					},
+					{
+						"name": "checkbox",
+						"jump": "component/table/checkbox.html",
+						"title": " 开启复选框"
+					},
+					{
+						"name": "radio",
+						"jump": "component/table/radio.html",
+						"title": " 开启单选框"
+					},
+					{
+						"name": "cellEdit",
+						"jump": "component/table/cellEdit.html",
+						"title": " 开启单元格编辑"
+					},
+					{
+						"name": "form",
+						"jump": "component/table/form.html",
+						"title": " 加入表单元素"
+					},
+					{
+						"name": "style",
+						"jump": "component/table/style.html",
+						"title": " 设置单元格样式"
+					},
+					{
+						"name": "fixed",
+						"jump": "component/table/fixed.html",
+						"title": " 固定列"
+					},
+					{
+						"name": "operate",
+						"jump": "component/table/operate.html",
+						"title": " 数据操作"
+					},
+					{
+						"name": "parseData",
+						"jump": "component/table/parseData.html",
+						"title": " 解析任意数据格式"
+					},
+					{
+						"name": "onrow",
+						"jump": "component/table/onrow.html",
+						"title": " 监听行事件"
+					},
+					{
+						"name": "reload",
+						"jump": "component/table/reload.html",
+						"title": " 数据表格的重载"
+					},
+					{
+						"name": "initSort",
+						"jump": "component/table/initSort.html",
+						"title": " 设置初始排序"
+					},
+					{
+						"name": "cellEvent",
+						"jump": "component/table/cellEvent.html",
+						"title": " 监听单元格事件"
+					},
+					{
+						"name": "thead",
+						"jump": "component/table/thead.html",
+						"title": " 复杂表头"
+					}
+				]
+			},
+			{
+				"name": "laypage",
+				"title": "分页",
+				"spread": true,
+				"list": [
+					{
+						"name": "demo1",
+						"title": "功能演示一",
+						"jump": "component/laypage/demo1.html"
+					},
+					{
+						"name": "demo2",
+						"title": "功能演示二",
+						"jump": "component/laypage/demo2.html"
+					}
+				]
+			},
+			{
+				"name": "upload",
+				"title": "上传",
+				"spread": true,
+				"list": [
+					{
+						"name": "demo1",
+						"title": "功能演示一",
+						"jump": "component/upload/demo1.html"
+					},
+					{
+						"name": "demo2",
+						"title": "功能演示二",
+						"jump": "component/upload/demo2.html"
+					}
+				]
+			},
+			{
+				"name": "transfer",
+				"title": "穿梭框",
+				"jump": "component/transfer/index.html"
+			},
+			{
+				"name": "tree",
+				"title": "树形组件",
+				"jump": "component/tree/index.html"
+			},
+			{
+				"name": "colorpicker",
+				"title": "颜色选择器",
+				"jump": "component/colorpicker/index.html"
+			},
+			{
+				"name": "slider",
+				"title": "滑块组件",
+				"jump": "component/slider/index.html"
+			},
+			{
+				"name": "rate",
+				"title": "评分",
+				"jump": "component/rate/index.html"
+			},
+			{
+				"name": "carousel",
+				"title": "轮播",
+				"jump": "component/carousel/index.html"
+			},
+			{
+				"name": "flow",
+				"title": "流加载",
+				"jump": "component/flow/index.html"
+			},
+			{
+				"name": "util",
+				"title": "工具",
+				"jump": "component/util/index.html"
+			},
+			{
+				"name": "code",
+				"title": "代码修饰",
+				"jump": "component/code/index.html"
+			}
+		]
+	},
+	{
+		"name": "template",
+		"title": "页面",
+		"icon": "layui-icon-template",
+		"spread": true,
+		"list": [
+			{
+				"name": "personalpage",
+				"title": "个人主页",
+				"jump": "template/personalpage.html"
+			},
+			{
+				"name": "addresslist",
+				"title": "通讯录",
+				"jump": "template/addresslist.html"
+			},
+			{
+				"name": "caller",
+				"title": "客户列表",
+				"jump": "template/caller.html"
+			},
+			{
+				"name": "goodslist",
+				"title": "商品列表",
+				"jump": "template/goodslist.html"
+			},
+			{
+				"name": "msgboard",
+				"title": "留言板",
+				"jump": "template/msgboard.html"
+			},
+			{
+				"name": "search",
+				"title": "搜索结果",
+				"jump": "template/search.html"
+			},
+			{
+				"name": "reg",
+				"title": "注册",
+				"jump": "user/reg.html"
+			},
+			{
+				"name": "login",
+				"title": "登入",
+				"jump": "user/login.html"
+			},
+			{
+				"name": "forget",
+				"title": "忘记密码",
+				"jump": "user/forget.html"
+			},
+			{
+				"name": "404",
+				"title": "404页面不存在",
+				"jump": "template/tips/404.html"
+			},
+			{
+				"name": "error",
+				"title": "错误提示",
+				"jump": "template/tips/error.html"
+			},
+			{
+				"name": "login",
+				"title": "百度一下",
+				"jump": "//www.baidu.com/"
+			},
+			{
+				"name": "forget",
+				"title": "layui官网",
+				"jump": "//www.layui.com/"
+			},
+			{
+				"name": "404",
+				"title": "layuiAdmin官网",
+				"jump": "//www.layui.com/admin/"
+			}
+		]
+	},
+	{
+		"name": "app",
+		"title": "应用",
+		"icon": "layui-icon-app",
+		"spread": true,
+		"list": [
+			{
+				"name": "content",
+				"title": "内容系统",
+				"spread": true,
+				"list": [
+					{
+						"name": "list",
+						"title": "文章列表",
+						"jump": "app/content/list.html"
+					},
+					{
+						"name": "tegs",
+						"title": "分类管理",
+						"jump": "app/content/tags.html"
+					},
+					{
+						"name": "comment",
+						"title": "评论管理",
+						"": "app/content/comment.html"
+					}
+				]
+			},
+			{
+				"name": "forum",
+				"title": "社区系统",
+				"spread": true,
+				"list": [
+					{
+						"name": "list",
+						"title": "帖子列表",
+						"jump": "app/forum/list.html"
+					},
+					{
+						"name": "replys",
+						"title": "回帖列表",
+						"jump": "app/forum/replys.html"
+					}
+				]
+			},
+			{
+				"name": "message",
+				"title": "消息中心",
+				"jump": "app/message/index.html"
+			},
+			{
+				"name": "workorder",
+				"title": "工单系统",
+				"jump": "app/workorder/index.html"
+			}
+		]
+	},
+	{
+		"name": "senior",
+		"title": "高级",
+		"icon": "layui-icon-senior",
+		"spread": true,
+		"list": [
+			{
+				"name": "im",
+				"title": "LayIM 通讯系统"
+			},
+			{
+				"name": "echarts",
+				"title": "Echarts集成",
+				"spread": true,
+				"list": [
+					{
+						"name": "line",
+						"title": "折线图",
+						"jump": "senior/echarts/line.html"
+					},
+					{
+						"name": "bar",
+						"title": "柱状图",
+						"jump": "senior/echarts/bar.html"
+					},
+					{
+						"name": "map",
+						"title": "地图",
+						"": "senior/echarts/map.html"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "user",
+		"title": "用户",
+		"icon": "layui-icon-user",
+		"spread": true,
+		"list": [
+			{
+				"name": "list",
+				"title": "网站用户",
+				"jump": "user/user/list.html"
+			},
+			{
+				"name": "administrators",
+				"title": "后台管理员"
+			},
+			{
+				"name": "role",
+				"title": "角色管理"
+			}
+		]
+	},
+	{
+		"name": "set",
+		"title": "设置",
+		"icon": "layui-icon-set",
+		"spread": true,
+		"list": [
+			{
+				"name": "system",
+				"title": "系统设置",
+				"spread": true,
+				"list": [
+					{
+						"name": "website",
+						"title": "网站设置",
+						"jump": "set/system/website.html"
+					},
+					{
+						"name": "email",
+						"title": "邮件服务",
+						"jump": "set/system/email.html"
+					}
+				]
+			},
+			{
+				"name": "me",
+				"title": "我的设置",
+				"spread": true,
+				"list": [
+					{
+						"name": "website",
+						"title": "基本资料",
+						"jump": "set/system/website.html"
+					},
+					{
+						"name": "email",
+						"title": "修改密码",
+						"jump": "set/user/password.html"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "get",
+		"title": "授权",
+		"icon": "layui-icon-auz",
+		"jump": "system/get"
+	}
+]
