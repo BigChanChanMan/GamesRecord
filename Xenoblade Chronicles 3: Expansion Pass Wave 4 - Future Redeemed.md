@@ -1,0 +1,1 @@
+Set before the events of Xenoblade Chronicles 3, join a cast of new and familiar characters in this original story scenario that connects all three instalments in the Xenoblade Chronicles series. Future Redeemed also features new battle mechanics, such as Unity Combo, where two characters can attack in unison.
