@@ -1,0 +1,1 @@
+In Unravel 2, you play as two Yarnys (tiny magical creatures made of yarn and joined by a thread) in a puzzle-platforming adventure. Run, jump, swing, and solve your way through a world of natural beauty and shadowy dangers, either on your own or with a friend in local co-op.
