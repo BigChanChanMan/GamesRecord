@@ -1,0 +1,1 @@
+Chart a mysterious planet with curious plantlike Pikmin that come in different types in Pikmin 4 - like the brand-new Ice Pikmin! The capable canine, Oatchi, will also help to overcome big challenges.
